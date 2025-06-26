@@ -1,0 +1,8 @@
+sentence-transformers
+pdfplumber
+scikit-learn
+flask
+pandas
+requests
+python-dotenv
+# openai  # Uncomment if using OpenAI API 
