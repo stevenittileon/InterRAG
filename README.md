@@ -46,7 +46,7 @@ python test_rag_answer.py
 ## Requirements
 
 - Python 3.10 or 3.11
-- [Cerebras Model Studio API Key](https://modelz.cerebras.net/)
+- [Cerebras Model Studio API Key](https://www.cerebras.ai/)
 - See `requirements.txt` for Python dependencies
 
 ---
@@ -90,5 +90,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-- [Cerebras Model Studio](https://modelz.cerebras.net/)
+- [Cerebras Model Studio](https://www.cerebras.ai/)
 - [pdfplumber](https://github.com/jsvine/pdfplumber)
