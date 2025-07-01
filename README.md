@@ -11,8 +11,6 @@ InterRAG is a Retrieval-Augmented Generation (RAG) tool that helps you prepare f
 - **Contextual Answer Generation:** Receive realistic, concise answers (10–15 sentences) for each question, grounded in your resume.
 - **Cerebras LLM Integration:** Uses the Cerebras Model Studio API for high-quality language generation.
 
----
-
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -41,23 +39,17 @@ python test_rag_answer.py
 - When prompted, enter the path to your resume PDF file (e.g., `/Users/yourname/Desktop/resume.pdf`).
 - If you haven't set your Cerebras API key as an environment variable, you'll be prompted to enter it.
 
----
-
 ## Requirements
 
 - Python 3.10 or 3.11
 - [Cerebras Model Studio API Key](https://www.cerebras.ai/)
 - See `requirements.txt` for Python dependencies
 
----
-
 ## How It Works
 
 1. **Extracts text from your PDF resume**
 2. **Generates interview questions tailored to your experience**
 3. **Generates optimal, human-like answers for each question using your resume as context**
-
----
 
 ## Example Usage
 
@@ -80,15 +72,19 @@ Answer:
 ----------------------------------------
 ```
 
----
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+## Future Works
 
-## Acknowledgments
-
-- [Cerebras Model Studio](https://www.cerebras.ai/)
-- [pdfplumber](https://github.com/jsvine/pdfplumber)
+1. Support for DOCX, TXT, and LinkedIn profile imports
+2. Domain-specific question and answer generation
+3. Interactive web interface for easier use
+4. User feedback loop to improve question/answer quality
+5. Integration with job descriptions for tailored prep
+6. Multilingual question and answer generation
+7. Enhanced retrieval using external knowledge bases
+8. Mock interview mode with follow-up questions
+9. Mobile app for interview practice on the go
+10. Analytics and progress tracking for users
